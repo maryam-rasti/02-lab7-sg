@@ -32,13 +32,13 @@ output "app_services_sg_arn" {
 
 # Database Services Security Group
 output "db_services_sg_id" {
-    value = module.db_services_sg.this_security_group_id
+    value = module.db_services_sg.security_group_id
 }
 
 
 # EFS Services Security Group
 output "efs_services_sg_id" {
-    value = module.efs_services_sg.this_security_group_id
+    value = module.efs_services_sg.security_group_id
 }
 
 
