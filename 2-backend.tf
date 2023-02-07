@@ -1,7 +1,7 @@
 # Store the state file in Terraform Cloud for Security Groups
 terraform {
   backend "remote" {
-    hostname = "app.terraform.io"
+    hostname     = "app.terraform.io"
     organization = "aws-arch"
 
     workspaces {
